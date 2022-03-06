@@ -1,0 +1,9 @@
+.swiper {
+  &-slide {
+    height: 800px;
+
+    &:first-child {
+      background: url('../image/banner.png') no-repeat center/cover;
+    }
+  }
+}
