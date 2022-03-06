@@ -9,14 +9,12 @@
         <nav class="nav-top">
           <ul class="nav-top__list">
             <li class="nav-top__item">
-              <NuxtLink to="/delivery" class="nav-top__link"
+              <NuxtLink to="/" class="nav-top__link"
                 >Delivery & returns</NuxtLink
               >
-              <NuxtLink to="/delivery" class="nav-top__link"
-                >Track order</NuxtLink
-              >
-              <NuxtLink to="/delivery" class="nav-top__link">Blog</NuxtLink>
-              <NuxtLink to="/delivery" class="nav-top__link">Contacts</NuxtLink>
+              <NuxtLink to="/" class="nav-top__link">Track order</NuxtLink>
+              <NuxtLink to="/" class="nav-top__link">Blog</NuxtLink>
+              <NuxtLink to="/" class="nav-top__link">Contacts</NuxtLink>
             </li>
           </ul>
         </nav>
@@ -48,13 +46,11 @@
           <nav class="nav-main">
             <ul class="nav-main__list">
               <li class="nav-main__item">
-                <NuxtLink to="/delivery" class="nav-main__link">Women</NuxtLink>
-                <NuxtLink to="/delivery" class="nav-main__link">Men</NuxtLink>
-                <NuxtLink to="/delivery" class="nav-main__link">Girls</NuxtLink>
-                <NuxtLink to="/delivery" class="nav-main__link">Boys</NuxtLink>
-                <NuxtLink
-                  to="/delivery"
-                  class="nav-main__link nav-main__link_accent"
+                <NuxtLink to="/" class="nav-main__link">Women</NuxtLink>
+                <NuxtLink to="/" class="nav-main__link">Men</NuxtLink>
+                <NuxtLink to="/" class="nav-main__link">Girls</NuxtLink>
+                <NuxtLink to="/" class="nav-main__link">Boys</NuxtLink>
+                <NuxtLink to="/" class="nav-main__link nav-main__link_accent"
                   >Sale</NuxtLink
                 >
               </li>
