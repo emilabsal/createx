@@ -1,5 +1,5 @@
 <template>
-  <swiper class="swiper" :options="swiperOption">
+  <swiper class="swiper slider" :options="swiperOption">
     <swiper-slide class="swiper-slide">
       <div class="container">
         <div class="slider">slider</div>

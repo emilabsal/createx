@@ -1,9 +1,15 @@
-.swiper {
-  &-slide {
-    height: 800px;
+.slider {
+  .swiper {
+    &-slide {
+      height: 800px;
 
-    &:first-child {
-      background: url('../image/banner.png') no-repeat center/cover;
+      &:first-child {
+        background: url('../image/banner.png') no-repeat center/cover;
+      }
     }
   }
+}
+
+.arrivals .swiper-slide {
+  width: 285px;
 }
