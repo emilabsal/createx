@@ -36,6 +36,8 @@
       <Arrivals />
     </div>
     <Blocks />
+    <Categories />
+    <Trending />
   </main>
 </template>
 
@@ -45,9 +47,10 @@ import Arrivals from '../components/Arrivals.vue'
 import women from '../assets/image/women.png'
 import men from '../assets/image/men.png'
 import kids from '../assets/image/kids.png'
+import Trending from '../components/Trending.vue'
 
 export default {
-  components: { Slider, Arrivals },
+  components: { Slider, Arrivals, Trending },
   name: 'IndexPage',
   data() {
     return {
